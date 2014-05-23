@@ -1,0 +1,892 @@
+Archive member included because of file (symbol)
+
+../Internals/trakr_start.a(startS.o)
+                              (_start)
+../Internals/trakr_start.a(main.o)
+                              ../Internals/trakr_start.a(startS.o) (main)
+../Internals/trakr.a(svt.o)   ./Intermediate/app.o (Sleep)
+../Internals/trakr.a(trakr.o)
+                              ../Internals/trakr.a(svt.o) (Log_Handle)
+../Internals/trakr.a(audio.o)
+                              ../Internals/trakr.a(svt.o) (SVT_WAV_Play)
+../Internals/trakr.a(apu.o)   ../Internals/trakr.a(audio.o) (Apu_Start)
+../Internals/trakr.a(adc.o)   ../Internals/trakr.a(audio.o) (Adc_Is_Fill_Data)
+../Internals/trakr.a(API_LIBs.o)
+                              ../Internals/trakr.a(trakr.o) (JAPI_Exit)
+../Internals/trakr.a(SubroutineAsm.o)
+                              ../Internals/trakr.a(trakr.o) (Draw_2_Rgb_Pixel_On_Yuv)
+../Internals/trakr.a(Image0.o)
+                              ../Internals/trakr.a(svt.o) (_binary_Images_Image0_bmp_start)
+../Internals/trakr.a(Image1.o)
+                              ../Internals/trakr.a(svt.o) (_binary_Images_Image1_bmp_start)
+../Internals/trakr.a(Image2.o)
+                              ../Internals/trakr.a(svt.o) (_binary_Images_Image2_bmp_start)
+../Internals/trakr.a(Image3.o)
+                              ../Internals/trakr.a(svt.o) (_binary_Images_Image3_bmp_start)
+/cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_udivsi3.o)
+                              ../Internals/trakr.a(apu.o) (__udivsi3)
+/cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_divsi3.o)
+                              ../Internals/trakr.a(trakr.o) (__divsi3)
+/cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_modsi3.o)
+                              ../Internals/trakr.a(trakr.o) (__modsi3)
+/cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_dvmd_tls.o)
+                              /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_udivsi3.o) (__div0)
+/cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_addsubdf3.o)
+                              ./Intermediate/app.o (__subdf3)
+/cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_muldivdf3.o)
+                              ./Intermediate/app.o (__muldf3)
+/cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_cmpdf2.o)
+                              ./Intermediate/app.o (__gtdf2)
+/cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_fixdfsi.o)
+                              ./Intermediate/app.o (__fixdfsi)
+/cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_truncdfsf2.o)
+                              ./Intermediate/app.o (__truncdfsf2)
+/cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_addsubsf3.o)
+                              ./Intermediate/app.o (__subsf3)
+/cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_muldivsf3.o)
+                              ./Intermediate/app.o (__mulsf3)
+/cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_cmpsf2.o)
+                              ./Intermediate/app.o (__ltsf2)
+/cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_fixsfsi.o)
+                              ./Intermediate/app.o (__fixsfsi)
+/cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/../../../../arm-elf/lib/libc.a(memcpy.o)
+                              ./Intermediate/app.o (memcpy)
+/cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/../../../../arm-elf/lib/libc.a(rand.o)
+                              ./Intermediate/app.o (srand)
+/cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/../../../../arm-elf/lib/libc.a(impure.o)
+                              /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/../../../../arm-elf/lib/libc.a(rand.o) (_impure_ptr)
+
+Allocating common symbols
+Common symbol       size              file
+
+Osd_Files           0x800             ../Internals/trakr.a(trakr.o)
+Osd_Count           0x4               ../Internals/trakr.a(trakr.o)
+stdout              0x200             ../Internals/trakr.a(trakr.o)
+cameraAngle         0x18              ./Intermediate/app.o
+tankImage           0x4               ./Intermediate/app.o
+Osd_Yuv_Mask_Cb     0x4               ../Internals/trakr.a(trakr.o)
+rotateSleep         0x4               ./Intermediate/app.o
+osd_text_x          0x4               ../Internals/trakr.a(trakr.o)
+transformedObjectPoints
+                    0x4b0             ./Intermediate/vector.o
+Scroll_Buf          0x140             ../Internals/trakr.a(trakr.o)
+Apufg               0x1               ../Internals/trakr.a(apu.o)
+cameraPos           0x18              ./Intermediate/app.o
+osd_text_y          0x4               ../Internals/trakr.a(trakr.o)
+pfnClose            0x4               ../Internals/trakr.a(audio.o)
+blocked             0x4               ./Intermediate/app.o
+arrow               0x20              ./Intermediate/app.o
+sweepAngle          0x4               ./Intermediate/app.o
+world               0xdca4            ./Intermediate/app.o
+ROsd_Bmp_Buffer     0xc000            ../Internals/trakr.a(trakr.o)
+FillBuffer          0x4               ../Internals/trakr.a(apu.o)
+Osd_Text_Char_Lib_Len
+                    0x4               ../Internals/trakr.a(trakr.o)
+score               0x4               ./Intermediate/app.o
+Linewidth           0x4               ../Internals/trakr.a(trakr.o)
+pAudio              0x4               ../Internals/trakr.a(audio.o)
+Wave_Buffer         0x4b000           ../Internals/trakr.a(svt.o)
+obj                 0xb08             ./Intermediate/app.o
+ROsd_Files          0x800             ../Internals/trakr.a(trakr.o)
+ROsd_Count          0x4               ../Internals/trakr.a(trakr.o)
+baselinePos         0x18              ./Intermediate/app.o
+mode                0x4               ./Intermediate/app.o
+Osd_Bmp_Buffer      0xc000            ../Internals/trakr.a(trakr.o)
+tankObjectIndex     0x4               ./Intermediate/app.o
+sweepStepCount      0x4               ./Intermediate/app.o
+Audio_Buffer        0x2000            ../Internals/trakr.a(audio.o)
+ApuStopIndex        0x1               ../Internals/trakr.a(apu.o)
+logoImage           0x4               ./Intermediate/app.o
+radarX              0x4               ./Intermediate/app.o
+arrowX              0x4               ./Intermediate/app.o
+behaviourCount      0x4               ./Intermediate/app.o
+projected           0x4b0             ./Intermediate/vector.o
+WaveHeadBuffer      0x100             ../Internals/trakr.a(audio.o)
+CMD_Buf             0x800             ../Internals/trakr.a(trakr.o)
+oldKeystate         0x4               ./Intermediate/app.o
+refreshCount        0x4               ./Intermediate/app.o
+Rgb_Buf             0x12c00           ../Internals/trakr.a(trakr.o)
+Apu                 0x4               ../Internals/trakr.a(apu.o)
+uiStartAddress      0x4               ../Internals/trakr.a(adc.o)
+Osd_Yuv_Mask_Cr     0x4               ../Internals/trakr.a(trakr.o)
+lives               0x4               ./Intermediate/app.o
+pCmd                0x4               ../Internals/trakr.a(trakr.o)
+transformedCentres  0x1e0             ./Intermediate/vector.o
+sortedObjects       0x50              ./Intermediate/vector.o
+sweepArm            0x8               ./Intermediate/app.o
+signatureImage      0x4               ./Intermediate/app.o
+Log_Buffer          0x100             ../Internals/trakr.a(trakr.o)
+Wave                0x144             ../Internals/trakr.a(svt.o)
+radarY              0x4               ./Intermediate/app.o
+behaviourType       0x4               ./Intermediate/app.o
+arrowY              0x4               ./Intermediate/app.o
+CMD_Index           0x1               ../Internals/trakr.a(trakr.o)
+pfnSeek             0x4               ../Internals/trakr.a(audio.o)
+arrowRefAngle       0x4               ./Intermediate/app.o
+DTBuffer            0x100             ../Internals/trakr.a(svt.o)
+resetCount          0x4               ./Intermediate/app.o
+pfnRead             0x4               ../Internals/trakr.a(audio.o)
+tank                0xb08             ./Intermediate/app.o
+keystate            0x4               ./Intermediate/app.o
+Osd_Text_Char_Lib_Addr
+                    0x4               ../Internals/trakr.a(trakr.o)
+pfnWrite            0x4               ../Internals/trakr.a(audio.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ram              0x00200000         0x00600000
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ../Internals/trakr_start.a
+LOAD ./Intermediate/app.o
+LOAD ./Intermediate/draw.o
+LOAD ./Intermediate/vector.o
+LOAD Images/battle.o
+LOAD Images/rorschach.o
+LOAD Images/tank.o
+LOAD ../Internals/trakr.a
+                0xffe7c000                __stack_base = 0xffe7c000
+LOAD /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a
+START GROUP
+LOAD /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/../../../../arm-elf/lib/librdimon.a
+LOAD /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/../../../../arm-elf/lib/libc.a
+END GROUP
+LOAD /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a
+                0x00000000                PROVIDE (hardware_init_hook, 0x0)
+                0x00000000                PROVIDE (software_init_hook, 0x0)
+                0x00000000                PROVIDE (__rom_image, 0x0)
+                0x00000004                PROVIDE (HandlerUndef, 0x4)
+                0x00000008                PROVIDE (HandlerSWI, 0x8)
+                0x0000000c                PROVIDE (HandlerPabort, 0xc)
+                0x00000010                PROVIDE (HandlerDabort, 0x10)
+                0x00000018                PROVIDE (HandlerIRQ, 0x18)
+                0x0000001c                PROVIDE (HandlerFIQ, 0x1c)
+                0x00200000                . = 0x200000
+
+.startup        0x00200000       0x10
+ *(.startup*)
+ .startup       0x00200000       0x10 ../Internals/trakr_start.a(startS.o)
+                0x00200000                _start
+
+.text           0x00200010    0x15c0c
+ *(.text* .stub .gnu.linkonce.t.*)
+ .text          0x00200010       0x64 ../Internals/trakr_start.a(main.o)
+                0x00200010                main
+                0x00200060                Uninitialize
+                0x0020004c                Initialize
+ .text          0x00200074     0x7760 ./Intermediate/app.o
+                0x00207004                Run
+                0x00204ee4                InitialiseGame
+                0x00202e30                DrawExplosion
+                0x00203498                DrawCrackedScreen
+                0x00202aa8                DrawRadarDots
+                0x002077bc                End
+                0x002030dc                DrawCrackedScreenExt
+                0x00204004                PlaySound
+                0x00203708                LoadCalibration
+                0x002041a0                Splash
+                0x002008f4                CreateCylinder
+                0x002029a8                DrawRadarArm
+                0x00201a28                CreateTank
+                0x00202d60                Random
+                0x00200554                CreatePyramid
+                0x002049a0                InitialiseWorld
+                0x00205088                LoseLife
+                0x002037a4                LineHitsObject
+                0x00203cb0                DrawHUD
+                0x0020284c                ResetArrow
+                0x0020524c                MoveTank
+                0x00205f8c                MoveCamera
+                0x00200074                CreateCube
+                0x00205008                ChooseBehaviour
+                0x002045f8                PlaceTank
+                0x00206e78                Start
+                0x002028f8                DrawArrow
+                0x00200fb0                CreateChessboard
+                0x00204040                ShowHelp
+ .text          0x002077d4     0x177c ./Intermediate/draw.o
+                0x002077d4                RGBColor
+                0x00208b80                RotatePoint
+                0x00208a18                DrawPoly
+                0x0020856c                qsqrt
+                0x00207a48                DrawHorizontalLine
+                0x00208150                qatan
+                0x002078d8                DrawVerticalLine
+                0x002080e0                qcos
+                0x00208d64                MovePoly
+                0x00208edc                ScalePoly
+                0x00207844                Plot
+                0x00208e14                ScalePoint
+                0x00207e1c                qsin
+                0x00208cf0                RotatePoly
+                0x00207bc0                DrawLine
+                0x0020867c                DrawCircle
+ .text          0x00208f50     0x3874 ./Intermediate/vector.o
+                0x00209498                CreateNewWorld
+                0x00209ed4                RotateObjectXAxis
+                0x0020a234                MoveObject
+                0x00209594                ClipAngle
+                0x0020a65c                ScaleObject
+                0x0020a6f4                TransformPoint
+                0x00208f50                CreatePoint
+                0x00209c40                RotatePoint3dZAxis
+                0x0020ad38                DrawWorldExt
+                0x002091b4                CreateObject
+                0x002090a8                SubtractPoint
+                0x0020a458                ScalePoint3d
+                0x0020a114                RotateObjectZAxis
+                0x0020c6f4                DrawWorld
+                0x0020998c                RotatePoint3dYAxis
+                0x00208fe4                AddPoint
+                0x002094f8                AddObjectToWorld
+                0x002096bc                RotatePoint3dXAxis
+                0x0020916c                CreateEdge
+                0x00209ff4                RotateObjectYAxis
+                0x0020c75c                EraseWorld
+ .text          0x0020c7c4      0xaa0 ../Internals/trakr.a(svt.o)
+                0x0020c894                ResetTimer
+                0x0020cbf4                DeleteFile
+                0x0020d248                StopAudioRecording
+                0x0020c8a8                ReadTimer
+                0x0020cabc                SetRightMotor
+                0x0020ca9c                SetLeftMotor
+                0x0020cb0c                CloseMotors
+                0x0020c8e0                SetIR
+                0x0020cd68                OpenGraphics
+                0x0020d078                SetScreen
+                0x0020cd90                OpenImageRegister
+                0x0020cb98                CloseFileSystem
+                0x0020cea0                ClearRectangle
+                0x0020cda4                RegisterImage
+                0x0020cc5c                CloseFile
+                0x0020ccb0                ReadFile
+                0x0020ca78                OpenMotors
+                0x0020cc7c                SeekFile
+                0x0020ce80                SetLineWidth
+                0x0020d0b0                SetRectangle
+                0x0020d168                StartAudioPlayback
+                0x0020ca20                GetRemoteKeys
+                0x0020cd40                FlushFile
+                0x0020c860                Sleep
+                0x0020d09c                ClearScreen
+                0x0020c994                GetBatteryVoltage
+                0x0020c910                SetLED
+                0x0020c980                CloseIR
+                0x0020cdd8                CloseImageRegister
+                0x0020cb2c                GetLeftMotorCurrent
+                0x0020d130                ReadADC
+                0x0020cb7c                OpenFileSystem
+                0x0020d1d8                StartAudioRecording
+                0x0020c8cc                OpenIR
+                0x0020ccf8                WriteFile
+                0x0020c9c4                GetRemoteKeyStatus
+                0x0020cf34                SetTextColor
+                0x0020d0f4                Show
+                0x0020d224                WriteAudioData
+                0x0020cbac                CreateFile
+                0x0020d1b4                IsAudioPlaying
+                0x0020cb54                GetRightMotorCurrent
+                0x0020d030                DrawImage
+                0x0020ca40                GetCarPushButton
+                0x0020cedc                DrawText
+                0x0020cadc                SetMotors
+                0x0020cf58                RegisterDefaultImages
+                0x0020ce3c                DrawRectangle
+                0x0020c7c4                Log
+                0x0020cd7c                CloseGraphics
+                0x0020cc28                OpenFile
+                0x0020cdf0                ScrollRectangle
+ .text          0x0020d264     0x4884 ../Internals/trakr.a(trakr.o)
+                0x002101b0                SVT_ROsd_Pack_Bmps_Send
+                0x0020d3a0                SVT_GetTimer
+                0x0020dc08                SVT_Str_Length
+                0x0020d858                SVT_FS_FileSeek
+                0x00210e94                SVT_ROsd_Draw_Rectangle
+                0x0020f5d0                SVT_Osd_Draw_Bitmap_To_Buffer
+                0x0020d2a0                SVT_OpenIRControl
+                0x0020fe68                SVT_Osd_Draw_Bitmap
+                0x0021040c                SVT_Osd_Set_Screen
+                0x0020eb78                SVT_Osd_Pack_Bmps_Close
+                0x0020fb54                SVT_Osd_Set_Text_Font
+                0x0020f278                SVT_Osd_Close
+                0x0020f1a8                SVT_Osd_Open
+                0x0020d760                SVT_FileSystem_Open
+                0x0020f318                SVT_Osd_Set_Text_Boundary
+                0x0020d43c                SVT_Graphics_GetFrameCount
+                0x0020d88c                SVT_File_Read
+                0x0020e9a8                SVT_Osd_Pack_Bmps_Send
+                0x0020d3f0                SVT_Graphics_Clear
+                0x0021100c                SVT_ROsd_Clear_Rectangle
+                0x0020fb94                SVT_Osd_Draw_Text
+                0x002119f0                SVT_ROsd_Send_Cmd_Times_Wait
+                0x0020f3f4                Get_Bmp_Index
+                0x0020d5b4                SVT_Log_Close
+                0x002100f4                SVT_ROsd_Pack_Bmps_Open
+                0x0020d518                SVT_Log
+                0x0020e8a0                SVT_Print
+                0x0020d36c                SVT_Key_GetStatus
+                0x0020eb98                SVT_Osd_Clear_Rectangle
+                0x0020d5f0                SVT_Motor_Open
+                0x0020d774                SVT_FileSystem_Close
+                0x0020d2e4                SVT_CloseIRControl
+                0x0020ffbc                SVT_Osd_Yuv_Mask_Open
+                0x00210908                Debug_TransCmd
+                0x002117fc                SVT_ROsd_Send_Cmd
+                0x0020e8f0                SVT_Osd_Pack_Bmps_Open
+                0x002112d4                SVT_ROsd_Draw_Bitmap
+                0x0021003c                SVT_Osd_Draw_Buffer_To_Yuv
+                0x0021093c                SVT_ROsd_Yuv_Mask_Open
+                0x0020d9bc                SVT_Str_Cmp
+                0x00210cd8                SVT_ROsd_Close
+                0x0020d4e0                SVT_Log_Open
+                0x0020f35c                SVT_Osd_Set_Text_Interval
+                0x0020daf4                SVT_Str_Pos
+                0x0020d620                SVT_Motor_SetLeft
+                0x00210a8c                SVT_ROsd_Open
+                0x0020ff2c                SVT_Osd_Show
+                0x0020d750                SVT_Motor_Close
+                0x00210a5c                SVT_ROsd_Yuv_Mask_Close
+                0x002104f4                SVT_Osd_ScrollRectangle
+                0x0020d31c                SVT_Motor_GetLeftCurrent
+                0x002103ec                SVT_ROsd_Pack_Bmps_Close
+                0x0020d42c                SVT_Graphics_Show
+                0x0020d264                SVT_PrepareApp
+                0x0020da70                SVT_Str_Cpos
+                0x0020d3c4                SVT_Graphics_Open
+                0x0020d344                SVT_Motor_GetRightCurrent
+                0x0020d2f8                SVT_GetBatteryVoltage
+                0x00210014                SVT_Osd_Yuv_Mask_Close
+                0x0020d93c                SVT_Char_To_WChar
+                0x0020f29c                SVT_Osd_Set_Linewidth
+                0x0020d7d0                SVT_File_Delete
+                0x0021158c                SVT_ROsd_Set_Screen
+                0x002118ac                SVT_ROsd_Send_Cmd_Times
+                0x0020f2f4                SVT_Osd_Get_Linewidth
+                0x0020d838                SVT_File_Close
+                0x00210b20                SVT_ROsd_Show
+                0x002104c4                SVT_Osd_Clear_Screen
+                0x0020d804                SVT_File_Open
+                0x0020ebec                SVT_Osd_Set_Rectangle
+                0x0020d2b4                SVT_SetIRState
+                0x0020d788                SVT_File_Create
+                0x0020edd8                SVT_Osd_Draw_Rectangle
+                0x0020d45c                SVT_Graphics_Close
+                0x0020d914                SVT_File_Flush
+                0x0020e910                SVT_Osd_Pack_Bmps
+                0x0020d4ac                SVT_Sleep
+                0x00211418                SVT_ROsd_Set_Rectangle
+                0x0020d400                SVT_Graphics_DrawBitmap
+                0x0020d470                Graphics_Frame
+                0x0020e18c                kprintf
+                0x0020d6b8                SVT_Motor_SetRight
+                0x0020d38c                SVT_ResetTimer
+                0x0020d284                SVT_UnprepareApp
+                0x0020d8d0                SVT_File_Write
+                0x00211060                SVT_ROsd_Draw_Text
+                0x00211644                SVT_ROsd_Clear_Screen
+                0x00210114                SVT_ROsd_Pack_Bmps
+                0x0020fde8                Compare_ID
+                0x0020f39c                SVT_Osd_Set_Text_Color
+                0x00211674                SVT_ROsd_ScrollRectangle
+                0x002117b8                SVT_ROsd_Is_Cmd_Sent
+ .text          0x00211ae8     0x1428 ../Internals/trakr.a(audio.o)
+                0x00212d90                Buffer_Write
+                0x0021222c                SVT_WAV_Stop
+                0x002126c8                SVT_WAV_Recording
+                0x00212e88                Wav_Read_ReadData
+                0x00212790                Wav_Write_Finish
+                0x00212ce4                Buffer_Read
+                0x00212bac                WAV_Read
+                0x00212c10                WAV_Write
+                0x002121d0                SVT_WAV_Is_Busy
+                0x002122a0                SVT_WAV_Record
+                0x00212064                Copy_Data_To_Buffer
+                0x00212b50                WAV_Seek
+                0x00212c74                WAV_Close
+                0x00212ca8                Buffer_Seek
+                0x00211ae8                SVT_WAV_Play
+                0x00212e70                Buffer_Close
+ .text          0x00212f10      0x664 ../Internals/trakr.a(apu.o)
+                0x00213040                Apu_Is_Busy
+                0x00212f10                Apu_SetVolume
+                0x00213210                Apu_Register_Fetch_Data
+                0x002132fc                Apu_Open
+                0x00213274                Apu_Set_Buffer_Size
+                0x00212fd0                Apu_Stop
+                0x00213238                Apu_Set_Buffer
+                0x00213564                Apu_Close
+                0x00212f8c                Apu_Start
+ .text          0x00213574      0x1c8 ../Internals/trakr.a(adc.o)
+                0x00213698                Adc_Get_Recorded_Data_Address
+                0x0021372c                Adc_Stop
+                0x002135ec                Adc_Is_Fill_Data
+                0x0021370c                Adc_Start
+                0x00213574                Adc_Get_Recorded_Data_Length
+ .text          0x0021373c      0x9a4 ../Internals/trakr.a(API_LIBs.o)
+                0x00213e58                JAPI_AttachQVGAProc
+                0x00213d5c                JAPI_SetRCIcon
+                0x00213f70                JAPI_APU_Start
+                0x00213ad8                JAPI_FS_FileCreate
+                0x00213af4                JAPI_FS_GetFileSize
+                0x00213f8c                JAPI_APU_Stop
+                0x00213e74                JAPI_FreeQVGAProc
+                0x00213870                JAPI_ResetTimer2
+                0x00214088                JAPI_FRAME_DestroyFrame
+                0x002137e4                JAPI_GetKey
+                0x002140a4                JAPI_FRAME_AlterColor
+                0x00214018                JAPI_APU_Open
+                0x00213fe0                JAPI_APU_SetBuffer
+                0x00213c44                JAPI_IRon
+                0x00213c7c                JAPI_GetIRCtrl
+                0x00213e20                JAPI_RF_CloseConnection
+                0x0021396c                JAPI_SendRfAudio
+                0x0021388c                JAPI_GetTimer2
+                0x00213abc                JAPI_FS_FileSeek
+                0x00213c60                JAPI_IRoff
+                0x00213bf0                JAPI_MotorCtrl
+                0x00213e04                JAPI_RF_OpenConnection
+                0x002138c4                JAPI_FreeVideoProc
+                0x0021381c                JAPI_GetTimer0
+                0x00213de8                JAPI_RF_StopRadio
+                0x00213a68                JAPI_FS_FileRead
+                0x00213f54                JAPI_APU_SetVolume
+                0x00213c28                JAPI_SetRCKeyCtrl
+                0x00213b9c                JAPI_SD_Write
+                0x00213ffc                JAPI_APU_SetBufferSize
+                0x00213f1c                JAPI_SetIoLow
+                0x00213b48                JAPI_SD_Close
+                0x00213800                JAPI_ResetTimer0
+                0x002140c0                JAPI_FRAME_CopyFrame
+                0x00213b2c                JAPI_SD_Open
+                0x00213ee4                JAPI_SetIoInputMode
+                0x00214050                JAPI_APU_IntHandle
+                0x00213b64                JAPI_SD_GetCardSize
+                0x00213a84                JAPI_FS_FileWrite
+                0x002139c0                JAPI_SendRfVideo
+                0x0021406c                JAPI_FRAME_CreateFrame
+                0x00213838                JAPI_ResetTimer1
+                0x00213fc4                JAPI_APU_RegisterFetchData
+                0x0021373c                JAPI_Version
+                0x00213fa8                JAPI_APU_IsBusy
+                0x00213f38                JAPI_SetIoPullUp
+                0x00213e3c                JAPI_RF_GetChannel
+                0x00213bb8                JAPI_SD_Flush
+                0x00213c98                JAPI_QuitIRCtrl
+                0x00213854                JAPI_GetTimer1
+                0x00213950                JAPI_CloseRfAudio
+                0x00213aa0                JAPI_FS_FileDelete
+                0x002138a8                JAPI_AttachVideoProc
+                0x00213ec8                JAPI_SetIoOutputMode
+                0x002138fc                JAPI_FreeAudioProc
+                0x00213e90                JAPI_GetCmdAck
+                0x002139dc                JAPI_TransFile
+                0x00213c0c                JAPI_MotorClose
+                0x00213eac                JAPI_GetIoInput
+                0x00213988                JAPI_OpenRfVideo
+                0x002137c8                JAPI_GetCtrlStatus
+                0x00214034                JAPI_APU_Close
+                0x00213d24                JAPI_SetMotorLeft
+                0x00213b10                JAPI_FS_FileFlush
+                0x00213cb4                JAPI_ReadBatteryVoltage
+                0x00213790                JAPI_Exit
+                0x00213d08                JAPI_ReadADC
+                0x00213d94                JAPI_ClearPDTimer
+                0x00213bd4                JAPI_MotorOpen
+                0x00213d40                JAPI_SetMotorRight
+                0x002139f8                JAPI_FS_Open
+                0x00213db0                JAPI_SetPDTimer
+                0x00213dcc                JAPI_RF_StartRadio
+                0x002138e0                JAPI_AttachAudioProc
+                0x00213934                JAPI_OpenRfAudio
+                0x00213f00                JAPI_SetIoHigh
+                0x002137ac                JAPI_Sleep
+                0x00213774                JAPI_WriteReg
+                0x002139a4                JAPI_CloseRfVideo
+                0x00213a30                JAPI_FS_FileOpen
+                0x00213758                JAPI_ReadReg
+                0x00213918                JAPI_GetAdcPosAddr
+                0x00213a14                JAPI_FS_Close
+                0x00213b80                JAPI_SD_Read
+                0x00213d78                JAPI_SetRCSnd
+                0x00213a4c                JAPI_FS_FileClose
+ .text          0x002140e0      0x67c ../Internals/trakr.a(SubroutineAsm.o)
+                0x00214158                SVT_Memory_Set
+                0x00214130                SVT_Memory_Set_W
+                0x002140e0                SVT_Mask_YUV
+                0x0021416c                SVT_Memory_Copy
+                0x00214144                SVT_Memory_Set_HW
+                0x00214704                Draw_2_Rgb_Pixel_On_Yuv
+ .text          0x0021475c       0xf8 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_udivsi3.o)
+                0x0021475c                __udivsi3
+ .text          0x00214854      0x128 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_divsi3.o)
+                0x00214854                __divsi3
+ .text          0x0021497c       0xe4 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_modsi3.o)
+                0x0021497c                __modsi3
+ .text          0x00214a60        0x4 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_dvmd_tls.o)
+                0x00214a60                __div0
+ .text          0x00214a64      0x388 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_addsubdf3.o)
+                0x00214d74                __floatsidf
+                0x00214da0                __extendsfdf2
+                0x00214a68                __adddf3
+                0x00214d4c                __floatunsidf
+                0x00214a64                __subdf3
+ .text          0x00214dec      0x4c4 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_muldivdf3.o)
+                0x00215044                __divdf3
+                0x00214dec                __muldf3
+ .text          0x002152b0       0xa4 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_cmpdf2.o)
+                0x002152c0                __cmpdf2
+                0x002152c0                __eqdf2
+                0x002152b0                __gtdf2
+                0x002152b8                __ltdf2
+                0x002152b8                __ledf2
+                0x002152c0                __nedf2
+                0x002152b0                __gedf2
+ .text          0x00215354       0x80 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_fixdfsi.o)
+                0x00215354                __fixdfsi
+ .text          0x002153d4       0xf8 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_truncdfsf2.o)
+                0x002153d4                __truncdfsf2
+ .text          0x002154cc      0x218 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_addsubsf3.o)
+                0x002154cc                __subsf3
+                0x00215698                __floatsisf
+                0x00215690                __floatunsisf
+                0x002154d0                __addsf3
+ .text          0x002156e4      0x330 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_muldivsf3.o)
+                0x00215874                __divsf3
+                0x002156e4                __mulsf3
+ .text          0x00215a14       0x9c /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_cmpsf2.o)
+                0x00215a1c                __lesf2
+                0x00215a24                __nesf2
+                0x00215a14                __gtsf2
+                0x00215a24                __eqsf2
+                0x00215a24                __cmpsf2
+                0x00215a1c                __ltsf2
+                0x00215a14                __gesf2
+ .text          0x00215ab0       0x68 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_fixsfsi.o)
+                0x00215ab0                __fixsfsi
+ .text          0x00215b18       0x90 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/../../../../arm-elf/lib/libc.a(memcpy.o)
+                0x00215b18                memcpy
+ .text          0x00215ba8       0x74 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/../../../../arm-elf/lib/libc.a(rand.o)
+                0x00215bc4                rand
+                0x00215ba8                srand
+ *(.gnu.warning)
+ *(.glue_7t)
+ *(.glue_7)
+
+.init
+ *(.init)
+
+.fini
+ *(.fini)
+
+.rodata         0x00215c1c      0x21a
+ *(.rodata* .gnu.linkonce.r.*)
+ .rodata        0x00215c1c      0x18c ./Intermediate/app.o
+ .rodata        0x00215da8        0x4 ../Internals/trakr.a(svt.o)
+ .rodata        0x00215dac       0x80 ../Internals/trakr.a(trakr.o)
+ .rodata        0x00215e2c        0x4 ../Internals/trakr.a(apu.o)
+ .rodata        0x00215e30        0x4 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/../../../../arm-elf/lib/libc.a(impure.o)
+                0x00215e30                _global_impure_ptr
+ .rodata.str1.4
+                0x00215e34        0x2 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/../../../../arm-elf/lib/libc.a(impure.o)
+                                  0x4 (size before relaxing)
+
+.eh_frame
+ *(.eh_frame)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+                0x00215e36                __erom = .
+
+.data           0x00215e38      0x870
+                0x00215e38                __data_start = .
+ *(.data* .gnu.linkonce.d.*)
+ .data          0x00215e38      0x156 Images/battle.o
+                0x00215f8e                _binary_Images_battle_bmp_end
+                0x00215e38                _binary_Images_battle_bmp_start
+ .data          0x00215f8e       0x7e Images/rorschach.o
+                0x00215f8e                _binary_Images_rorschach_bmp_start
+                0x0021600c                _binary_Images_rorschach_bmp_end
+ .data          0x0021600c       0x5e Images/tank.o
+                0x0021606a                _binary_Images_tank_bmp_end
+                0x0021600c                _binary_Images_tank_bmp_start
+ *fill*         0x0021606a        0x2 00
+ .data          0x0021606c       0x10 ../Internals/trakr.a(svt.o)
+                0x0021606c                Image0
+                0x00216078                Image3
+                0x00216070                Image1
+                0x00216074                Image2
+ .data          0x0021607c       0x18 ../Internals/trakr.a(trakr.o)
+                0x00216080                tLeftBoundary
+                0x00216084                tRightBoundary
+                0x0021608c                tLineInterval
+                0x00216088                tCharInterval
+                0x00216090                tColor
+                0x0021607c                Log_Handle
+ .data          0x00216094       0x84 ../Internals/trakr.a(Image0.o)
+                0x00216118                _binary_Images_Image0_bmp_end
+                0x00216094                _binary_Images_Image0_bmp_start
+ .data          0x00216118       0x84 ../Internals/trakr.a(Image1.o)
+                0x0021619c                _binary_Images_Image1_bmp_end
+                0x00216118                _binary_Images_Image1_bmp_start
+ .data          0x0021619c       0x84 ../Internals/trakr.a(Image2.o)
+                0x00216220                _binary_Images_Image2_bmp_end
+                0x0021619c                _binary_Images_Image2_bmp_start
+ .data          0x00216220       0x84 ../Internals/trakr.a(Image3.o)
+                0x002162a4                _binary_Images_Image3_bmp_end
+                0x00216220                _binary_Images_Image3_bmp_start
+ .data          0x002162a4      0x404 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/../../../../arm-elf/lib/libc.a(impure.o)
+                0x002166a4                _impure_ptr
+                0x002166a8                _edata = .
+                0x002166a8                __app_end__ = .
+                0x002166a8                __bss_start__ = .
+
+.bss            0x00216700    0x8a140
+ *(.bss*)
+ .bss           0x00216700       0x30 ./Intermediate/vector.o
+ .bss           0x00216730      0x410 ../Internals/trakr.a(trakr.o)
+                0x00216730                Osd_Flag
+                0x00216734                CMD_Length
+ COMMON         0x00216b40     0xf37c ./Intermediate/app.o
+                0x00216b40                cameraAngle
+                0x00216b58                tankImage
+                0x00216b5c                rotateSleep
+                0x00216b60                cameraPos
+                0x00216b78                blocked
+                0x00216b7c                arrow
+                0x00216b9c                sweepAngle
+                0x00216ba0                world
+                0x00224844                score
+                0x00224848                obj
+                0x00225350                baselinePos
+                0x00225368                mode
+                0x0022536c                tankObjectIndex
+                0x00225370                sweepStepCount
+                0x00225374                logoImage
+                0x00225378                radarX
+                0x0022537c                arrowX
+                0x00225380                behaviourCount
+                0x00225384                oldKeystate
+                0x00225388                refreshCount
+                0x0022538c                lives
+                0x00225390                sweepArm
+                0x00225398                signatureImage
+                0x0022539c                radarY
+                0x002253a0                behaviourType
+                0x002253a4                arrowY
+                0x002253a8                arrowRefAngle
+                0x002253ac                resetCount
+                0x002253b0                tank
+                0x00225eb8                keystate
+ COMMON         0x00225ebc      0xb90 ./Intermediate/vector.o
+                0x00225ebc                transformedObjectPoints
+                0x0022636c                projected
+                0x0022681c                transformedCentres
+                0x002269fc                sortedObjects
+ COMMON         0x00226a4c    0x4b244 ../Internals/trakr.a(svt.o)
+                0x00226a4c                Wave_Buffer
+                0x00271a4c                Wave
+                0x00271b90                DTBuffer
+ *fill*         0x00271c90       0x70 00
+ COMMON         0x00271d00    0x2ca10 ../Internals/trakr.a(trakr.o)
+                0x00271d00                Osd_Files
+                0x00272500                Osd_Count
+                0x00272510                stdout
+                0x00272710                Osd_Yuv_Mask_Cb
+                0x00272714                osd_text_x
+                0x00272718                Scroll_Buf
+                0x00272858                osd_text_y
+                0x00272900                ROsd_Bmp_Buffer
+                0x0027e900                Osd_Text_Char_Lib_Len
+                0x0027e904                Linewidth
+                0x0027e908                ROsd_Files
+                0x0027f108                ROsd_Count
+                0x0027f200                Osd_Bmp_Buffer
+                0x0028b200                CMD_Buf
+                0x0028ba00                Rgb_Buf
+                0x0029e600                Osd_Yuv_Mask_Cr
+                0x0029e604                pCmd
+                0x0029e608                Log_Buffer
+                0x0029e708                CMD_Index
+                0x0029e70c                Osd_Text_Char_Lib_Addr
+ COMMON         0x0029e710     0x211c ../Internals/trakr.a(audio.o)
+                0x0029e710                pfnClose
+                0x0029e714                pAudio
+                0x0029e720                Audio_Buffer
+                0x002a0720                WaveHeadBuffer
+                0x002a0820                pfnSeek
+                0x002a0824                pfnRead
+                0x002a0828                pfnWrite
+ COMMON         0x002a082c       0x10 ../Internals/trakr.a(apu.o)
+                0x002a082c                Apufg
+                0x002a0830                FillBuffer
+                0x002a0834                ApuStopIndex
+                0x002a0838                Apu
+ COMMON         0x002a083c        0x4 ../Internals/trakr.a(adc.o)
+                0x002a083c                uiStartAddress
+                0x002a0840                __bss_end__ = .
+                0x002a0840                PROVIDE (end, .)
+OUTPUT(Intermediate/BattleTrakr.elf elf32-littlearm)
+
+.stab           0x00000000     0xe3a0
+ .stab          0x00000000       0x48 ../Internals/trakr_start.a(startS.o)
+ .stab          0x00000048      0x4b0 ../Internals/trakr_start.a(main.o)
+                                0x4bc (size before relaxing)
+ .stab          0x000004f8     0x273c ./Intermediate/app.o
+                               0x2748 (size before relaxing)
+ .stab          0x00002c34     0x11a0 ./Intermediate/draw.o
+                               0x1230 (size before relaxing)
+ .stab          0x00003dd4     0x13e0 ./Intermediate/vector.o
+                               0x14b8 (size before relaxing)
+ .stab          0x000051b4     0x1380 ../Internals/trakr.a(svt.o)
+                               0x15c0 (size before relaxing)
+ .stab          0x00006534     0x46c8 ../Internals/trakr.a(trakr.o)
+                               0x4938 (size before relaxing)
+ .stab          0x0000abfc     0x13c8 ../Internals/trakr.a(audio.o)
+                               0x1674 (size before relaxing)
+ .stab          0x0000bfc4      0x738 ../Internals/trakr.a(apu.o)
+                                0x9c0 (size before relaxing)
+ .stab          0x0000c6fc      0x4ec ../Internals/trakr.a(adc.o)
+                                0x528 (size before relaxing)
+ .stab          0x0000cbe8      0x444 ../Internals/trakr.a(API_LIBs.o)
+                                0x450 (size before relaxing)
+ .stab          0x0000d02c     0x1374 ../Internals/trakr.a(SubroutineAsm.o)
+                               0x1380 (size before relaxing)
+
+.stabstr        0x00000000     0x7a95
+ .stabstr       0x00000000     0x7a95 ../Internals/trakr_start.a(startS.o)
+
+.comment        0x00000000       0xd8
+ .comment       0x00000000       0x12 ../Internals/trakr_start.a(main.o)
+ .comment       0x00000012       0x12 ./Intermediate/app.o
+ .comment       0x00000024       0x12 ./Intermediate/draw.o
+ .comment       0x00000036       0x12 ./Intermediate/vector.o
+ .comment       0x00000048       0x12 ../Internals/trakr.a(svt.o)
+ .comment       0x0000005a       0x12 ../Internals/trakr.a(trakr.o)
+ .comment       0x0000006c       0x12 ../Internals/trakr.a(audio.o)
+ .comment       0x0000007e       0x12 ../Internals/trakr.a(apu.o)
+ .comment       0x00000090       0x12 ../Internals/trakr.a(adc.o)
+ .comment       0x000000a2       0x12 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/../../../../arm-elf/lib/libc.a(memcpy.o)
+ .comment       0x000000b4       0x12 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/../../../../arm-elf/lib/libc.a(rand.o)
+ .comment       0x000000c6       0x12 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/../../../../arm-elf/lib/libc.a(impure.o)
+
+.debug_line     0x00000000      0xd15
+ .debug_line    0x00000000       0x7d /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_udivsi3.o)
+ .debug_line    0x0000007d       0x89 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_divsi3.o)
+ .debug_line    0x00000106       0x75 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_modsi3.o)
+ .debug_line    0x0000017b       0x5a /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_dvmd_tls.o)
+ .debug_line    0x000001d5      0x197 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_addsubdf3.o)
+ .debug_line    0x0000036c      0x200 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_muldivdf3.o)
+ .debug_line    0x0000056c       0xb5 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_cmpdf2.o)
+ .debug_line    0x00000621       0x78 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_fixdfsi.o)
+ .debug_line    0x00000699       0x96 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_truncdfsf2.o)
+ .debug_line    0x0000072f       0xe1 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_addsubsf3.o)
+ .debug_line    0x00000810      0x126 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_muldivsf3.o)
+ .debug_line    0x00000936       0x7f /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_cmpsf2.o)
+ .debug_line    0x000009b5       0x72 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_fixsfsi.o)
+ .debug_line    0x00000a27       0xcf /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/../../../../arm-elf/lib/libc.a(memcpy.o)
+ .debug_line    0x00000af6      0x11b /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/../../../../arm-elf/lib/libc.a(rand.o)
+ .debug_line    0x00000c11      0x104 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/../../../../arm-elf/lib/libc.a(impure.o)
+
+.debug_info     0x00000000     0x1986
+ .debug_info    0x00000000       0x7b /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_udivsi3.o)
+ .debug_info    0x0000007b       0x7b /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_divsi3.o)
+ .debug_info    0x000000f6       0x7b /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_modsi3.o)
+ .debug_info    0x00000171       0x7b /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_dvmd_tls.o)
+ .debug_info    0x000001ec       0x7a /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_addsubdf3.o)
+ .debug_info    0x00000266       0x7a /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_muldivdf3.o)
+ .debug_info    0x000002e0       0x7a /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_cmpdf2.o)
+ .debug_info    0x0000035a       0x7a /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_fixdfsi.o)
+ .debug_info    0x000003d4       0x7a /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_truncdfsf2.o)
+ .debug_info    0x0000044e       0x7a /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_addsubsf3.o)
+ .debug_info    0x000004c8       0x7a /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_muldivsf3.o)
+ .debug_info    0x00000542       0x7a /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_cmpsf2.o)
+ .debug_info    0x000005bc       0x7a /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_fixsfsi.o)
+ .debug_info    0x00000636       0xfc /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/../../../../arm-elf/lib/libc.a(memcpy.o)
+ .debug_info    0x00000732      0x932 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/../../../../arm-elf/lib/libc.a(rand.o)
+ .debug_info    0x00001064      0x922 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/../../../../arm-elf/lib/libc.a(impure.o)
+
+.debug_abbrev   0x00000000      0x479
+ .debug_abbrev  0x00000000       0x14 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_udivsi3.o)
+ .debug_abbrev  0x00000014       0x14 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_divsi3.o)
+ .debug_abbrev  0x00000028       0x14 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_modsi3.o)
+ .debug_abbrev  0x0000003c       0x14 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_dvmd_tls.o)
+ .debug_abbrev  0x00000050       0x14 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_addsubdf3.o)
+ .debug_abbrev  0x00000064       0x14 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_muldivdf3.o)
+ .debug_abbrev  0x00000078       0x14 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_cmpdf2.o)
+ .debug_abbrev  0x0000008c       0x14 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_fixdfsi.o)
+ .debug_abbrev  0x000000a0       0x14 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_truncdfsf2.o)
+ .debug_abbrev  0x000000b4       0x14 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_addsubsf3.o)
+ .debug_abbrev  0x000000c8       0x14 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_muldivsf3.o)
+ .debug_abbrev  0x000000dc       0x14 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_cmpsf2.o)
+ .debug_abbrev  0x000000f0       0x14 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_fixsfsi.o)
+ .debug_abbrev  0x00000104       0x99 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/../../../../arm-elf/lib/libc.a(memcpy.o)
+ .debug_abbrev  0x0000019d      0x185 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/../../../../arm-elf/lib/libc.a(rand.o)
+ .debug_abbrev  0x00000322      0x157 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/../../../../arm-elf/lib/libc.a(impure.o)
+
+.debug_aranges  0x00000000      0x1e0
+ .debug_aranges
+                0x00000000       0x20 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_udivsi3.o)
+ .debug_aranges
+                0x00000020       0x20 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_divsi3.o)
+ .debug_aranges
+                0x00000040       0x20 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_modsi3.o)
+ .debug_aranges
+                0x00000060       0x20 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_dvmd_tls.o)
+ .debug_aranges
+                0x00000080       0x20 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_addsubdf3.o)
+ .debug_aranges
+                0x000000a0       0x20 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_muldivdf3.o)
+ .debug_aranges
+                0x000000c0       0x20 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_cmpdf2.o)
+ .debug_aranges
+                0x000000e0       0x20 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_fixdfsi.o)
+ .debug_aranges
+                0x00000100       0x20 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_truncdfsf2.o)
+ .debug_aranges
+                0x00000120       0x20 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_addsubsf3.o)
+ .debug_aranges
+                0x00000140       0x20 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_muldivsf3.o)
+ .debug_aranges
+                0x00000160       0x20 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_cmpsf2.o)
+ .debug_aranges
+                0x00000180       0x20 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/libgcc.a(_fixsfsi.o)
+ .debug_aranges
+                0x000001a0       0x20 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/../../../../arm-elf/lib/libc.a(memcpy.o)
+ .debug_aranges
+                0x000001c0       0x20 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/../../../../arm-elf/lib/libc.a(rand.o)
+
+.debug_frame    0x00000000       0x68
+ .debug_frame   0x00000000       0x28 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/../../../../arm-elf/lib/libc.a(memcpy.o)
+ .debug_frame   0x00000028       0x40 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/../../../../arm-elf/lib/libc.a(rand.o)
+
+.debug_pubnames
+                0x00000000       0x7b
+ .debug_pubnames
+                0x00000000       0x1d /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/../../../../arm-elf/lib/libc.a(memcpy.o)
+ .debug_pubnames
+                0x0000001d       0x25 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/../../../../arm-elf/lib/libc.a(rand.o)
+ .debug_pubnames
+                0x00000042       0x39 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/../../../../arm-elf/lib/libc.a(impure.o)
+
+.debug_str      0x00000000      0x5a6
+ .debug_str     0x00000000       0xba /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/../../../../arm-elf/lib/libc.a(memcpy.o)
+                                 0xda (size before relaxing)
+ .debug_str     0x000000ba      0x456 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/../../../../arm-elf/lib/libc.a(rand.o)
+                                0x4b1 (size before relaxing)
+ .debug_str     0x00000510       0x96 /cygdrive/c/Trakr/tools/bin/../lib/gcc/arm-elf/3.4.6/../../../../arm-elf/lib/libc.a(impure.o)
+                                0x4c0 (size before relaxing)
